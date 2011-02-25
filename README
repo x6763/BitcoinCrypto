@@ -1,1 +1,13 @@
 BitcoinCrypto javadocs: http://x6763.github.com/BitcoinCrypto/doc/index.html
+
+The classes of interest when developing Bitcoin software with this library are:
+org.bitcoin.x6763.crypto.digest.Hash160
+org.bitcoin.x6763.crypto.digest.Hash256
+org.bitcoin.x6763.crypto.digest.RIPEMD160
+org.bitcoin.x6763.crypto.digest.SHA256
+
+org.bitcoin.x6763.crypto.ecdsa.KeyPairGenerator
+org.bitcoin.x6763.crypto.ecdsa.PrivateKey
+org.bitcoin.x6763.crypto.ecdsa.PublicKey
+
+org.bitcoin.x6763.crypto.ecdsa.signers.ECDSASignature
